@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-12-24T10:52:01-03:00" hostname="https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com" tests="1" failures="0"  errors="0"  time="0.28">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="1"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Dec 24, 2020 10:52 AM"/>
+            <property name="testExecutionTime" value="0.28 s"/>
+            <property name="testTotalTime" value="0.28 s"/>
+            <property name="commandTime" value="5.06 s"/>
+            <property name="hostname" value="https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D4x000003yVBXEA2"/>
+            <property name="username" value="henrique_nitatori@wise-raccoon-ou18ko.com"/>
+            <property name="testRunId" value="7074x000006qmJn"/>
+            <property name="userId" value="0054x000002LRPdAAO"/>
+        </properties>
+        <testcase name="givenDoLoadWhenSaveAccessTokenInCacheThenReturnToken" classname="AccessTokenCacheBuilderTest" time="0.28">
+        </testcase>
+    </testsuite>
+</testsuites>

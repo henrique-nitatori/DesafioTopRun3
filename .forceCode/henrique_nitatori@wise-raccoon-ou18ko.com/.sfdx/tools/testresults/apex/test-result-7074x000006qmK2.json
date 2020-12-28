@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Dec 24, 2020 10:52 AM",
+        "testExecutionTime": "346 ms",
+        "testTotalTime": "346 ms",
+        "commandTime": "5878 ms",
+        "hostname": "https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com",
+        "orgId": "00D4x000003yVBXEA2",
+        "username": "henrique_nitatori@wise-raccoon-ou18ko.com",
+        "testRunId": "7074x000006qmK2",
+        "userId": "0054x000002LRPdAAO"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x000000LQtsEAG"
+            },
+            "Id": "07M4x000000LQtsEAG",
+            "QueueItemId": "7094x0000009BXaAAM",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7074x000006qmK2AAI",
+            "MethodName": "givenDoLoadWhenSaveAccessTokenInCacheThenReturnToken",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x00000BVYv6AAH"
+                },
+                "Id": "01p4x00000BVYv6AAH",
+                "Name": "AccessTokenCacheBuilderTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 346,
+            "FullName": "AccessTokenCacheBuilderTest.givenDoLoadWhenSaveAccessTokenInCacheThenReturnToken"
+        }
+    ]
+}

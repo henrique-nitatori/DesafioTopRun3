@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Dec 24, 2020 11:42 AM",
+        "testExecutionTime": "27 ms",
+        "testTotalTime": "27 ms",
+        "commandTime": "5077 ms",
+        "hostname": "https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com",
+        "orgId": "00D4x000003yVBXEA2",
+        "username": "henrique_nitatori@wise-raccoon-ou18ko.com",
+        "testRunId": "7074x000006qnh6",
+        "userId": "0054x000002LRPdAAO"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x000000LQuWEAW"
+            },
+            "Id": "07M4x000000LQuWEAW",
+            "QueueItemId": "7094x0000009BXzAAM",
+            "StackTrace": "Class.System.JSON.deserialize: line 15, column 1\nClass.GeolocationResponseFail.check: line 10, column 1\nClass.GeolocationResponseFailTest.givenCheckResponseWhenResponseStatusde400ThenReturnMessageErrorInFieldOfObject: line 13, column 1",
+            "Message": "System.JSONException: Malformed JSON: Expected '{' at the beginning of object",
+            "AsyncApexJobId": "7074x000006qnh6AAA",
+            "MethodName": "givenCheckResponseWhenResponseStatusde400ThenReturnMessageErrorInFieldOfObject",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x00000BVZT1AAP"
+                },
+                "Id": "01p4x00000BVZT1AAP",
+                "Name": "GeolocationResponseFailTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 27,
+            "FullName": "GeolocationResponseFailTest.givenCheckResponseWhenResponseStatusde400ThenReturnMessageErrorInFieldOfObject"
+        }
+    ]
+}

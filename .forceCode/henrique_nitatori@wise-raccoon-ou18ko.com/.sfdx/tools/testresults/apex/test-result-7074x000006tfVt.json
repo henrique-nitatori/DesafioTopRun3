@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Dec 28, 2020 9:18 AM",
+        "testExecutionTime": "0 ms",
+        "testTotalTime": "0 ms",
+        "commandTime": "7210 ms",
+        "hostname": "https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com",
+        "orgId": "00D4x000003yVBXEA2",
+        "username": "henrique_nitatori@wise-raccoon-ou18ko.com",
+        "testRunId": "7074x000006tfVt",
+        "userId": "0054x000002LRPdAAO"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x000000LRS4EAO"
+            },
+            "Id": "07M4x000000LRS4EAO",
+            "QueueItemId": "7094x0000009BfxAAE",
+            "StackTrace": "Class.System.JSON.deserialize: line 15, column 1\nClass.AccountFixeFactory.newDefaultAccount: line 34, column 1\nClass.AccountFixeFactory.newAccount: line 8, column 1\nClass.SendAccountAddressTest.setup: line 8, column 1",
+            "Message": "System.JSONException: Não é possível remover a série da instância de BillingAddress de VALUE_STRING valor 18770-970 ou a solicitação pode estar sem um campo obrigatório at [line:1, column:199]",
+            "AsyncApexJobId": "7074x000006tfVtAAI",
+            "MethodName": "givenSendAccountAddressWhenPassAccountThenUpdateOfGeolocationStatus",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x00000BVzaLAAT"
+                },
+                "Id": "01p4x00000BVzaLAAT",
+                "Name": "SendAccountAddressTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": null,
+            "FullName": "SendAccountAddressTest.givenSendAccountAddressWhenPassAccountThenUpdateOfGeolocationStatus"
+        }
+    ]
+}

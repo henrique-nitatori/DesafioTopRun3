@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-12-24T11:46:37-03:00" hostname="https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com" tests="1" failures="1"  errors="0"  time="0.03">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="0"/>
+            <property name="failing" value="1"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="0%"/>
+            <property name="failRate" value="100%"/>
+            <property name="testStartTime" value="Dec 24, 2020 11:46 AM"/>
+            <property name="testExecutionTime" value="0.03 s"/>
+            <property name="testTotalTime" value="0.03 s"/>
+            <property name="commandTime" value="5.38 s"/>
+            <property name="hostname" value="https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D4x000003yVBXEA2"/>
+            <property name="username" value="henrique_nitatori@wise-raccoon-ou18ko.com"/>
+            <property name="testRunId" value="7074x000006qo1g"/>
+            <property name="userId" value="0054x000002LRPdAAO"/>
+        </properties>
+        <testcase name="givenCheckResponseWhenResponseStatusde400ThenReturnMessageErrorInFieldOfObject" classname="GeolocationResponseFailTest" time="0.03">
+            <failure message="System.JSONException: Unexpected character (&#39;[line:1, column:4]"><![CDATA[Class.System.JSON.deserialize: line 15, column 1
+Class.GeolocationResponseFail.check: line 10, column 1
+Class.GeolocationResponseFailTest.givenCheckResponseWhenResponseStatusde400ThenReturnMessageErrorInFieldOfObject: line 13, column 1]]></failure>
+        </testcase>
+    </testsuite>
+</testsuites>

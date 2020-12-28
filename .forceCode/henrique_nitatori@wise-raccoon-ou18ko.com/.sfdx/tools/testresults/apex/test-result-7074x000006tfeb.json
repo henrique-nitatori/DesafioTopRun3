@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Dec 28, 2020 9:22 AM",
+        "testExecutionTime": "0 ms",
+        "testTotalTime": "0 ms",
+        "commandTime": "5698 ms",
+        "hostname": "https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com",
+        "orgId": "00D4x000003yVBXEA2",
+        "username": "henrique_nitatori@wise-raccoon-ou18ko.com",
+        "testRunId": "7074x000006tfeb",
+        "userId": "0054x000002LRPdAAO"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x000000LRS9EAO"
+            },
+            "Id": "07M4x000000LRS9EAO",
+            "QueueItemId": "7094x0000009Bg2AAE",
+            "StackTrace": "Class.cache.PlatformCacheDelegateWrapper.get: line 48, column 1\nClass.cache.Org.get: line 61, column 1\nClass.PutOutBoundAddressMappingService.postProject: line 19, column 1\nClass.PutOutBoundAddressMappingService.sendAccountAddress: line 13, column 1\nClass.SendAccountAddress.execute: line 16, column 1",
+            "Message": "System.UnexpectedException: Failed Cache.Org.get() for key 'acessToken': Os métodos definidos como TestMethod não suportam callouts para serviços da Web. Contact support with error ID: 1315591040-7785 (-1744183618)",
+            "AsyncApexJobId": "7074x000006tfebAAA",
+            "MethodName": "givenSendAccountAddressWhenPassAccountThenUpdateOfGeolocationStatus",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x00000BVzaLAAT"
+                },
+                "Id": "01p4x00000BVzaLAAT",
+                "Name": "SendAccountAddressTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": null,
+            "FullName": "SendAccountAddressTest.givenSendAccountAddressWhenPassAccountThenUpdateOfGeolocationStatus"
+        }
+    ]
+}

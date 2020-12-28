@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-12-24T08:45:44-03:00" hostname="https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com" tests="1" failures="1"  errors="0"  time="0.37">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="0"/>
+            <property name="failing" value="1"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="0%"/>
+            <property name="failRate" value="100%"/>
+            <property name="testStartTime" value="Dec 24, 2020 8:45 AM"/>
+            <property name="testExecutionTime" value="0.37 s"/>
+            <property name="testTotalTime" value="0.37 s"/>
+            <property name="commandTime" value="5.78 s"/>
+            <property name="hostname" value="https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D4x000003yVBXEA2"/>
+            <property name="username" value="henrique_nitatori@wise-raccoon-ou18ko.com"/>
+            <property name="testRunId" value="7074x000006qiC4"/>
+            <property name="userId" value="0054x000002LRPdAAO"/>
+        </properties>
+        <testcase name="givenFindByIdWhenfindAccountByIdThenReturnAccount" classname="AccountRepositoryTest" time="0.37">
+            <failure message="System.DmlException: Insert failed. First exception on row 0; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, Account: execution of BeforeInsert
+
+caused by: System.NullPointerException: Attempt to de-reference a null object
+
+Class.CepFormatter.format: line 6, column 1
+Class.AccountTH.beforeInsert: line 27, column 1
+Class.TriggerHandler.run: line 45, column 1
+Trigger.Account: line 5, column 1: []"><![CDATA[Class.AccountFixeFactory.createAccount: line 28, column 1
+Class.AccountFixeFactory.createAccount: line 20, column 1
+Class.AccountRepositoryTest.givenFindByIdWhenfindAccountByIdThenReturnAccount: line 8, column 1]]></failure>
+        </testcase>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Dec 28, 2020 11:09 AM",
+        "testExecutionTime": "36 ms",
+        "testTotalTime": "36 ms",
+        "commandTime": "6343 ms",
+        "hostname": "https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com",
+        "orgId": "00D4x000003yVBXEA2",
+        "username": "henrique_nitatori@wise-raccoon-ou18ko.com",
+        "testRunId": "7074x000006tiyU",
+        "userId": "0054x000002LRPdAAO"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x000000LRT2EAO"
+            },
+            "Id": "07M4x000000LRT2EAO",
+            "QueueItemId": "7094x0000009BgRAAU",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7074x000006tiyUAAQ",
+            "MethodName": "givenToRequestAddressMappingWhenPassAccountObjectThenReturnRequestAddressMapping",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x00000BW0B5AAL"
+                },
+                "Id": "01p4x00000BW0B5AAL",
+                "Name": "RequestAccountAddressTransformerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 36,
+            "FullName": "RequestAccountAddressTransformerTest.givenToRequestAddressMappingWhenPassAccountObjectThenReturnRequestAddressMapping"
+        }
+    ]
+}

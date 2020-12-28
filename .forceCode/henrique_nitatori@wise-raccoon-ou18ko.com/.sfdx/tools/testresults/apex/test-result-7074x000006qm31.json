@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Dec 24, 2020 10:43 AM",
+        "testExecutionTime": "28 ms",
+        "testTotalTime": "28 ms",
+        "commandTime": "5594 ms",
+        "hostname": "https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com",
+        "orgId": "00D4x000003yVBXEA2",
+        "username": "henrique_nitatori@wise-raccoon-ou18ko.com",
+        "testRunId": "7074x000006qm31",
+        "userId": "0054x000002LRPdAAO"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x000000LQtOEAW"
+            },
+            "Id": "07M4x000000LQtOEAW",
+            "QueueItemId": "7094x0000009BXGAA2",
+            "StackTrace": "Class.cache.PlatformCacheDelegateWrapper.getOrgDefault: line 13, column 1\nClass.cache.Org.getDefault: line 107, column 1\nClass.cache.Org.getPartitionInstance: line 116, column 1\nClass.cache.Org.get: line 61, column 1\nClass.AccessTokenCacheBuilderTest.givenDoLoadWhenSaveAccessTokenInCacheThenReturnToken: line 8, column 1",
+            "Message": "cache.Org.OrgCacheException: A default partition was not found.  To cache without partition reference, designate a partition as default.",
+            "AsyncApexJobId": "7074x000006qm31AAA",
+            "MethodName": "givenDoLoadWhenSaveAccessTokenInCacheThenReturnToken",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x00000BVYv6AAH"
+                },
+                "Id": "01p4x00000BVYv6AAH",
+                "Name": "AccessTokenCacheBuilderTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 28,
+            "FullName": "AccessTokenCacheBuilderTest.givenDoLoadWhenSaveAccessTokenInCacheThenReturnToken"
+        }
+    ]
+}

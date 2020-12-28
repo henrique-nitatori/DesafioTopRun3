@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-12-28T09:22:16-03:00" hostname="https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com" tests="1" failures="1"  errors="0"  time="0">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="0"/>
+            <property name="failing" value="1"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="0%"/>
+            <property name="failRate" value="100%"/>
+            <property name="testStartTime" value="Dec 28, 2020 9:22 AM"/>
+            <property name="testExecutionTime" value="0 s"/>
+            <property name="testTotalTime" value="0 s"/>
+            <property name="commandTime" value="5.7 s"/>
+            <property name="hostname" value="https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D4x000003yVBXEA2"/>
+            <property name="username" value="henrique_nitatori@wise-raccoon-ou18ko.com"/>
+            <property name="testRunId" value="7074x000006tfeb"/>
+            <property name="userId" value="0054x000002LRPdAAO"/>
+        </properties>
+        <testcase name="givenSendAccountAddressWhenPassAccountThenUpdateOfGeolocationStatus" classname="SendAccountAddressTest" time="0">
+            <failure message="System.UnexpectedException: Failed Cache.Org.get() for key &#39;acessToken&#39;: Os métodos definidos como TestMethod não suportam callouts para serviços da Web. Contact support with error ID: 1315591040-7785 (-1744183618)"><![CDATA[Class.cache.PlatformCacheDelegateWrapper.get: line 48, column 1
+Class.cache.Org.get: line 61, column 1
+Class.PutOutBoundAddressMappingService.postProject: line 19, column 1
+Class.PutOutBoundAddressMappingService.sendAccountAddress: line 13, column 1
+Class.SendAccountAddress.execute: line 16, column 1]]></failure>
+        </testcase>
+    </testsuite>
+</testsuites>

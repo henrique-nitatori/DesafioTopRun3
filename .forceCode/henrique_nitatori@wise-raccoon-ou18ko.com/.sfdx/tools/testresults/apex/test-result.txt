@@ -1,0 +1,33 @@
+=== Test Reports
+FORMAT  FILE
+──────  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+txt     /home/henrique/Documentos/GitHub/TopRunExercicio3/.sfdx/tools/testresults/apex/test-result.txt
+txt     /home/henrique/Documentos/GitHub/TopRunExercicio3/.sfdx/tools/testresults/apex/test-run-id.txt
+junit   /home/henrique/Documentos/GitHub/TopRunExercicio3/.sfdx/tools/testresults/apex/test-result-7074x000006tuvJ-junit.xml
+json    /home/henrique/Documentos/GitHub/TopRunExercicio3/.sfdx/tools/testresults/apex/test-result-7074x000006tuvJ.json
+
+=== Test Results
+TEST NAME                                                                                                        OUTCOME  MESSAGE  RUNTIME (MS)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────  ───────  ───────  ────────────
+ResponseGeolocationAddressTest.givenCheckResponseGeolocationAddressWhenResponseStatusde200ThenReturnListAccount  Pass              37
+
+=== Test Summary
+NAME                 VALUE
+───────────────────  ─────────────────────────────────────────────────────
+Outcome              Passed
+Tests Ran            1
+Passing              1
+Failing              0
+Skipped              0
+Pass Rate            100%
+Fail Rate            0%
+Test Start Time      Dec 28, 2020 4:51 PM
+Test Execution Time  37 ms
+Test Total Time      37 ms
+Command Time         5843 ms
+Hostname             https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com
+Org Id               00D4x000003yVBXEA2
+Username             henrique_nitatori@wise-raccoon-ou18ko.com
+Test Run Id          7074x000006tuvJ
+User Id              0054x000002LRPdAAO
+

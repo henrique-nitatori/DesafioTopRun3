@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-12-28T09:18:03-03:00" hostname="https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com" tests="1" failures="1"  errors="0"  time="0">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="0"/>
+            <property name="failing" value="1"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="0%"/>
+            <property name="failRate" value="100%"/>
+            <property name="testStartTime" value="Dec 28, 2020 9:18 AM"/>
+            <property name="testExecutionTime" value="0 s"/>
+            <property name="testTotalTime" value="0 s"/>
+            <property name="commandTime" value="7.21 s"/>
+            <property name="hostname" value="https://wise-raccoon-ou18ko-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D4x000003yVBXEA2"/>
+            <property name="username" value="henrique_nitatori@wise-raccoon-ou18ko.com"/>
+            <property name="testRunId" value="7074x000006tfVt"/>
+            <property name="userId" value="0054x000002LRPdAAO"/>
+        </properties>
+        <testcase name="givenSendAccountAddressWhenPassAccountThenUpdateOfGeolocationStatus" classname="SendAccountAddressTest" time="0">
+            <failure message="System.JSONException: Não é possível remover a série da instância de BillingAddress de VALUE_STRING valor 18770-970 ou a solicitação pode estar sem um campo obrigatório at [line:1, column:199]"><![CDATA[Class.System.JSON.deserialize: line 15, column 1
+Class.AccountFixeFactory.newDefaultAccount: line 34, column 1
+Class.AccountFixeFactory.newAccount: line 8, column 1
+Class.SendAccountAddressTest.setup: line 8, column 1]]></failure>
+        </testcase>
+    </testsuite>
+</testsuites>
